@@ -19,3 +19,11 @@ management:
     web:
       exposure:
         include: refresh     
+
+spring:
+  ......
+  rabbitmq:
+    host: 192.168.217.137
+    port: 5672
+    username: admin
+    password: admin
