@@ -13,3 +13,11 @@ eureka:
 turbine:
   app-config: order-service, feign
   cluster-name-expression: new String("default")
+
+spring:
+  ......
+  rabbitmq:
+    host: 192.168.217.137
+    port: 5672
+    username: admin
+    password: admin
